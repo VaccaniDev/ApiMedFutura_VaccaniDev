@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esta API foi desenvolvida utilizando AdonisJS e fornece funcionalidades para gerenciar pessoas em um sistema. A aplicação permite criar, buscar, atualizar e excluir pessoas. Além disso, a API permite realizar buscas por termos em vários campos e valida a integridade dos dados fornecidos.
+Esta API foi desenvolvida utilizando AdonisJS com Node em TypeScript e fornece funcionalidades para gerenciar pessoas em um sistema. A aplicação permite criar, buscar, atualizar e excluir pessoas. Além disso, a API permite realizar buscas por termos em vários campos e valida a integridade dos dados fornecidos.
 
 ## Banco de Dados
 
@@ -24,3 +24,14 @@ Este projeto foi desenvolvido utilizando PostgreSQL. Se você preferir usar outr
     ```sh
     node ace migration:run
     ```
+## Usando a API
+
+1. Inicie o servidor:
+    ```sh
+    node ace serve
+    ```
+2. Acesse a API através de `http://localhost:3333`.
+
+## Rotas
+
+As rotas da aplicação estão definidas no arquivo `start/routes.ts`. Para facilitar o teste das rotas, você pode importar o arquivo JSON do Insomnia que está incluído neste repositório para o próprio Insomnia.
